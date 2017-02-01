@@ -1,0 +1,16 @@
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\bin\Debug\MainWindowLauncher.exe.config
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\bin\Debug\MainWindowLauncher.exe
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\bin\Debug\MainWindowLauncher.pdb
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindowLauncher_MarkupCompile.cache
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindowLauncher_MarkupCompile.lref
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindowLauncher.g.resources
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindowLauncher.Properties.Resources.resources
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindowLauncher.csproj.GenerateResource.Cache
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindowLauncher.exe
+c:\users\emeri\documents\visual studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindowLauncher.pdb
+C:\Users\emeri\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindowLauncher.csprojResolveAssemblyReference.cache
+C:\Users\emeri\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\bin\Debug\TCPServer.exe
+C:\Users\emeri\Documents\Visual Studio 2015\Projects\WpfApplication2\WpfApplication2\bin\Debug\TCPServer.pdb

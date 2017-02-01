@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Icon="favicon.ico"
+        Title="Design" Height="350" Width="700" BorderThickness="0.5" ResizeMode="NoResize" WindowStyle="None" Background="Coral" ShowInTaskbar="False">
+    <Grid MouseDown="DragWindowEvent" Margin="0,0,0,0" HorizontalAlignment="Left" Width="700">
+        <Label x:Name="TextLbl" Content="Application" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.737,-0.5" Width="700" Foreground="White" Height="40" FontSize="26.667" FontFamily="Magneto" Padding="8,5,5,5" IsEnabled="False" Margin="-5,-64,0,0">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="-3"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="15" Stroke="Black" VerticalAlignment="Top" Width="700" Opacity="0.5" StrokeThickness="0" Margin="0,45,0,0"/>
+        <Button x:Name="BtnClose" HorizontalAlignment="Left" Margin="669,0,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="CloseWindow" Background="Coral" BorderBrush="White" BorderThickness="2"/>
+        <Button x:Name="BtnMinimise" HorizontalAlignment="Left" Margin="635,0,0,0" VerticalAlignment="Top" Width="30" Height="30" Click="MinimiseWindow" BorderThickness="2,10,2,2" BorderBrush="White" Background="Coral"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="33,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="87" StrokeThickness="0">
+            <Rectangle.Effect>
+                <DropShadowEffect Opacity="0.6" BlurRadius="10" ShadowDepth="10"/>
+            </Rectangle.Effect>
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="cacasmiley.jpg" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Button x:Name="BtnClickTCPServer" Content="Button" HorizontalAlignment="Left" Margin="33,81,0,0" VerticalAlignment="Top" Width="87" Click="App_Click" Opacity="0" Height="100" BorderThickness="0" Cursor="Hand"/>
+        <Label x:Name="label" Content="TCP Server" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="36,153,0,0" Width="87" FontSize="14.667" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-3"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+      </Grid>
+</Window>
