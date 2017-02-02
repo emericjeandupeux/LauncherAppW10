@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -101,16 +102,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="favicon.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="cacasmiley.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\TCPServer\TCPServer\TCPServer.csproj">
       <Project>{874e382a-5fa5-4e0d-b582-99a16a72e709}</Project>
       <Name>TCPServer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ressources\favicon.ico" />
+    <Resource Include="Ressources\smiley.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

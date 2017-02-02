@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication2"
         mc:Ignorable="d"
-        Icon="favicon.ico"
+        Icon="Ressources/favicon.ico"
         Title="Design" Height="350" Width="700" BorderThickness="0.5" ResizeMode="NoResize" WindowStyle="None" Background="Coral" ShowInTaskbar="False">
     <Grid MouseDown="DragWindowEvent" Margin="0,0,0,0" HorizontalAlignment="Left" Width="700">
         <Label x:Name="TextLbl" Content="Application" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.737,-0.5" Width="700" Foreground="White" Height="40" FontSize="26.667" FontFamily="Magneto" Padding="8,5,5,5" IsEnabled="False" Margin="-5,-64,0,0">
@@ -23,7 +23,7 @@
                 <DropShadowEffect Opacity="0.6" BlurRadius="10" ShadowDepth="10"/>
             </Rectangle.Effect>
             <Rectangle.Fill>
-                <ImageBrush ImageSource="cacasmiley.jpg" Stretch="Uniform"/>
+                <ImageBrush ImageSource="Ressources/smiley.jpg" Stretch="Uniform"/>
             </Rectangle.Fill>
         </Rectangle>
         <Button x:Name="BtnClickTCPServer" Content="Button" HorizontalAlignment="Left" Margin="33,81,0,0" VerticalAlignment="Top" Width="87" Click="App_Click" Opacity="0" Height="100" BorderThickness="0" Cursor="Hand"/>
